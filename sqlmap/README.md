@@ -5,3 +5,5 @@
 ```bash
 docker run -it sqlmap --wizard
 ```
+### Demo:
+[![asciicast](https://asciinema.org/a/141840.png)](https://asciinema.org/a/141840)

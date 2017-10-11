@@ -7,3 +7,6 @@ Based on [this](https://github.com/v3n0m-Scanner/V3n0M-Scanner) project
 ````bash
 docker run -it v3n0m
 ````
+
+### Demo  
+[![asciicast](https://asciinema.org/a/141830.png)](https://asciinema.org/a/141830)

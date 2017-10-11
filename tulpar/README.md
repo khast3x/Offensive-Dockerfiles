@@ -12,3 +12,5 @@ docker run -it tulpar
 docker run -it tulpar action http://target.com
 ```
 
+### Demo:  
+[![asciicast](https://asciinema.org/a/141833.png)](https://asciinema.org/a/141833)

@@ -8,3 +8,7 @@ Comes fully equipped with
 ```bash
 docker run -it nmap -sV --script=vulscan/vulscan.nse www.example.com
 ```
+
+## Demo  
+[![asciicast](https://asciinema.org/a/141837.png)](https://asciinema.org/a/141837)
+
