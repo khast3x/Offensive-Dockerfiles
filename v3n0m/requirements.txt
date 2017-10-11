@@ -1,0 +1,10 @@
+aiohttp
+httplib2
+socksipy-branch
+requests
+url
+bs4
+dnspython
+tqdm
+aioftp
+termcolor

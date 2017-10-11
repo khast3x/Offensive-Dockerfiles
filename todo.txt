@@ -1,0 +1,4 @@
+(A) 2017-10-06 golismero
+(B) 2017-10-06 OpenVAS
+(B) 2017-10-06 Shodan
+(B) 2017-10-06 SPF
