@@ -6,4 +6,9 @@
 * Most images have a small README.md for basic usage.
 * Feedback welcomed
   
-
+#### Working:
+* tulpar
+* nmap / NSE / Vulscan
+* sqlmap
+* dcrawl
+* v3n0m
