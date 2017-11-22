@@ -16,3 +16,7 @@ https://github.com/UnkL4b/GitMiner
 http://unk-br.blogspot.fr/2016/03/gitminer-advance-search-for-github.html
 sublist3r
 dnsrecon
+https://github.com/googleinurl/SCANNER-INURLBR
+   sqlmap
+   xss
+   
