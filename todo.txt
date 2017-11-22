@@ -2,3 +2,17 @@
 (B) 2017-10-06 OpenVAS
 (B) 2017-10-06 Shodan
 (B) 2017-10-06 SPF
+
+---
+https://github.com/D4Vinci/Cr3dOv3r
+https://github.com/codingo/VHostScan
+Maybe vanquish
+credscanners:
+  githbub
+    api tokens
+ssh credentials
+gitminer
+https://github.com/UnkL4b/GitMiner
+http://unk-br.blogspot.fr/2016/03/gitminer-advance-search-for-github.html
+sublist3r
+dnsrecon
