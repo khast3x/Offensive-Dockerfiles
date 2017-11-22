@@ -20,3 +20,4 @@ https://github.com/googleinurl/SCANNER-INURLBR
    sqlmap
    xss
    
+https://github.com/aszone/avenger-sh
