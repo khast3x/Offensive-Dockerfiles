@@ -1,10 +1,24 @@
 # Nmap, nmap scripts, vulscan
-> Famous Nmap scanner built on a very light Alpine image.  
+
+## Abstract
 Comes fully equipped with
-  the latest Nmap Scripting Engine (NSE) modules, as well as the [Vulscan](https://github.com/scipag/vulscan) NSE script.  
-  The databases used by Vulscan are pulled using the original updater script when image is built  
+the latest Nmap Scripting Engine (NSE) modules, as well as the [Vulscan](https://github.com/scipag/vulscan) NSE script.  
+The databases used by Vulscan are pulled using the original updater script when image is built  
   
-### Usage:
+## Source
+
+https://github.com/scipag/vulscan
+
+## Usage
+
+```bash
+cd nmap/
+docker build -t nmap .
+docker run -it nmap:latest
+```
+
+## Help:
+
 ```bash
 docker run -it nmap -sV --script=vulscan/vulscan.nse www.example.com
 ```

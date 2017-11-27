@@ -1,22 +1,17 @@
-FROM python:3.6
+FROM python:2.7-slim
 
-# Edit with mysql-client, postgresql-client, sqlite3, etc. for your needs.
-# Or delete entirely if not needed.
-RUN apt-get update \
-    && apt-get install -y --no-install-recommends \
-        postgresql-client \
-    && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y git \
+										python2.7-dev  \
+										python-pip \
+										python-docutils \
+										perl \
+										nmap \
+										sslscan
 
-WORKDIR /usr/src/app
-
-COPY requirements.txt /usr/src/app/
-RUN pip install --no-cache-dir -r requirements.txt
-
-COPY . /usr/src/app
-
-# For Django
-EXPOSE 8000
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
-
-# For some other command
-# CMD ["python", "app.py"]
+WORKDIR /opt
+RUN git clone https://github.com/golismero/golismero.git
+COPY user.conf ~/.golismero/user.conf
+WORKDIR golismero/
+RUN pip install -r requirements.txt && pip install -r requirements_unix.txt && ln -s /opt/golismero/golismero.py /usr/bin/golismero
+ENTRYPOINT ["python", "golismero.py"]
+CMD ["--help"]

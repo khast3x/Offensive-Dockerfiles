@@ -1,6 +1,6 @@
-FROM python:2-alpine
+FROM python:2-slim
 
-RUN apk --update add git
+RUN apt-get update && apt-get install -y git
 
 RUN git clone https://github.com/Hadesy2k/sqliv.git
 WORKDIR /sqliv

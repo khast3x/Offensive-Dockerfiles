@@ -1,7 +1,17 @@
 # SQLMap
-> Automates the process of detecting and exploiting SQL injection flaws and taking over of database servers  
+
+## Source
+https://github.com/sqlmapproject/sqlmap
   
-### Usage:
+## Usage:
+
+```bash
+cd sqlmap/
+docker build -t sqlmap .
+docker run -it sqlmap:latest
+```
+
+## Help
 ```bash
 docker run -it sqlmap --wizard
 ```
