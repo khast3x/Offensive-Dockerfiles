@@ -14,8 +14,6 @@
 * golismero
 * sqliv
 * datasploit
-
-#### To add
-
 * gitminer
 * Cr3dOv3r
+
