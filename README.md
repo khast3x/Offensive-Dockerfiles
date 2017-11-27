@@ -17,3 +17,11 @@
 * gitminer
 * Cr3dOv3r
 
+## Usage:
+
+```bash
+git clone https://github.com/khast3x/Offensive-Dockerfiles.git
+cd <tool>
+docker build -t <tool> .
+docker run -it <tool>:latest
+```
