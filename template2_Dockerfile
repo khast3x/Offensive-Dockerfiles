@@ -7,5 +7,5 @@ RUN apk --update add --virtual build-dependencies python2-dev build-base wget gi
 WORKDIR X
 
 #COPY requirements.txt .
-RUN pip3 install -r requirements.txt
+RUN pip2 install -r requirements.txt
 ENTRYPOINT ["python2", "X.py"]

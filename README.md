@@ -15,7 +15,7 @@ It becomes much easier to deploy and use these tools with mission specific asset
 
 #### Working:
 * tulpar
-* nmap / NSE / Vulscan
+* nmap / NSE / Vulscan / Vulners
 * sqlmap
 * dcrawl
 * v3n0m
