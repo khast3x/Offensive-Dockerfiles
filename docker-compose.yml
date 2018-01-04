@@ -1,0 +1,69 @@
+version: '2'
+
+services:
+
+  credover:
+    build: ./Cr3d0v3r
+    container_name: credover
+
+  datasploit:
+    build: ./datasploit
+    container_name: datasploit
+
+  dcrawl:
+    build: ./dcrawl
+    container_name: dcrawl
+
+  gitminer:
+    build: ./gitminer
+    container_name: gitminer
+
+  golismero:
+    build: ./golismero
+    container_name: golismero
+
+  nmap:
+    build: ./nmap
+    container_name: nmap
+
+  sqliv:
+    build: ./sqliv
+    container_name: sqliv
+
+
+  sqlmap:
+    build: ./sqlmap
+    container_name: sqlmap
+
+  tulpar:
+    build: ./tulpar
+    container_name: tulpar
+
+  dcrawl:
+    build: ./dcrawl
+    container_name: dcrawl
+
+  v3n0m:
+    build: ./v3n0m
+    container_name: v3n0m
+
+  ufonet:
+    build: ./ufonet
+    container_name: ufo
+
+  tor:
+    image: osminogin/tor-simple
+    container_name: tor
+    links:
+     - credover
+     - datasploit
+     - dcrawl
+     - gitminer
+     - golismero
+     - nmap
+     - sqliv
+     - sqlmap
+     - tulpar
+     - v3n0m
+     - ufonet
+
