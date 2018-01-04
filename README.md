@@ -10,7 +10,8 @@ It becomes much easier to deploy and use these tools with mission specific asset
 	* Transparent Tor overlay proxy
 	* Example given in ``docker-compose`` format with attached minimal Tor SOCKS proxy
 	* Can also be deployed using docker ``bridge networking`` for complete transparent proxy of services
-	* Using mission specific domain names for implant reverse callbacks
+* Using mission specific domain names for implant reverse callbacks
+* Datacenter-grade internet connection bandwidth
 
 #### Working:
 * tulpar
