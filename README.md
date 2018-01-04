@@ -42,6 +42,7 @@ docker-compose build
 * Cr3dOv3r
 * UFONet
 * Striker
+* EmailHarvester
 
 #### Notes:
 

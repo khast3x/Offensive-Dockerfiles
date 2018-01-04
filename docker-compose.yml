@@ -55,6 +55,11 @@ services:
     build: ./ufonet
     container_name: ufo
 
+
+  emailharvester:
+    build: ./emailHarvester
+    container_name: emailHarvester
+
   tor:
     image: osminogin/tor-simple
     container_name: tor
