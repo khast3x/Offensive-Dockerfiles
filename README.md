@@ -13,25 +13,6 @@ It becomes much easier to deploy and use these tools with mission specific asset
 * Using mission specific domain names for implant reverse callbacks
 * Datacenter-grade internet connection bandwidth
 
-#### Working:
-* tulpar
-* nmap / NSE / Vulscan / Vulners
-* sqlmap
-* dcrawl
-* v3n0m
-* golismero
-* sqliv
-* datasploit
-* gitminer
-* Cr3dOv3r
-* UfoNET
-
-#### Notes:
-
-* Adding them as I go. Don't expect production-ready images  
-* Uses either either using python-slim or python-alpine
-* Tools will show help dialog if no arguments are passed  
-
 ## Usage:
 
 ```bash
@@ -47,3 +28,24 @@ git clone https://github.com/khast3x/Offensive-Dockerfiles.git
 cd Offensive-Dockerfiles
 docker-compose build
 ```
+
+#### Working:
+* tulpar
+* nmap / NSE / Vulscan / Vulners
+* sqlmap
+* dcrawl
+* v3n0m
+* golismero
+* sqliv
+* datasploit
+* gitminer
+* Cr3dOv3r
+* UFONet
+* Striker
+
+#### Notes:
+
+* Adding them as I go. Don't expect production-ready images  
+* Uses either either using python-slim or python-alpine
+* Tools will show help dialog if no arguments are passed  
+

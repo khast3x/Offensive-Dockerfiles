@@ -35,6 +35,10 @@ services:
     build: ./sqlmap
     container_name: sqlmap
 
+  striker:
+    build: ./striker
+    container_name: striker
+
   tulpar:
     build: ./tulpar
     container_name: tulpar
@@ -63,6 +67,7 @@ services:
      - nmap
      - sqliv
      - sqlmap
+     - striker
      - tulpar
      - v3n0m
      - ufonet
