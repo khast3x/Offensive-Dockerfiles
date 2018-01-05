@@ -59,6 +59,9 @@ services:
   emailharvester:
     build: ./emailHarvester
     container_name: emailHarvester
+  brutex:
+    build: ./BruteX
+    container_name: brutex
 
   tor:
     image: osminogin/tor-simple
@@ -76,4 +79,4 @@ services:
      - tulpar
      - v3n0m
      - ufonet
-
+     - brutex
