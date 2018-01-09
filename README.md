@@ -2,7 +2,7 @@
 ![Docker](https://koalalorenzo2014.files.wordpress.com/2015/04/docker-icon-bw.png?w=300&h=212)
 
 # Abstract
-Alpine or slim Dockerfiles of various information security offensive tools, making them easy to deploy in hosted cloud environments.  
+Alpine or slim Dockerfiles of various information offensive security tools, making them easy to deploy in hosted cloud environments.  
 It becomes much easier to deploy and use these tools with mission specific assets such as:
 
 * Hosting environment
@@ -43,6 +43,8 @@ docker-compose build
 * UFONet
 * Striker
 * EmailHarvester
+* BruteX
+* BlackWidow
 
 #### Notes:
 

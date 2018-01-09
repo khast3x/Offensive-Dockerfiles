@@ -62,6 +62,9 @@ services:
   brutex:
     build: ./BruteX
     container_name: brutex
+  blackwidow:
+    build: ./BlackWidow
+    container_name: blackwidow
 
   tor:
     image: osminogin/tor-simple
@@ -80,3 +83,4 @@ services:
      - v3n0m
      - ufonet
      - brutex
+     - blackwidow
