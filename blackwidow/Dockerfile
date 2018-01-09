@@ -6,8 +6,7 @@ RUN apk --update add --virtual build-dependencies python2-dev build-base wget gi
   && git clone https://github.com/1N3/BlackWidow.git
 WORKDIR BlackWidow
 
-cp blackwidow /usr/bin/blackwidow
-cp injectx.py /usr/bin/injectx.py
+RUN cp blackwidow /usr/bin/blackwidow && cp injectx.py /usr/bin/injectx.py
 
 RUN pip2 install -r requirements.txt
 ENTRYPOINT ["python2", "blackwidow"]
