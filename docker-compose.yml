@@ -1,6 +1,9 @@
 version: '2'
 
 services:
+  netutils:
+    image: flungo/netutils
+    container_name: netutils
 
   credover:
     build: ./Cr3d0v3r
@@ -63,7 +66,7 @@ services:
     build: ./BruteX
     container_name: brutex
   blackwidow:
-    build: ./BlackWidow
+    build: ./blackwidow
     container_name: blackwidow
 
   tor:
@@ -84,3 +87,4 @@ services:
      - ufonet
      - brutex
      - blackwidow
+     - netutils
