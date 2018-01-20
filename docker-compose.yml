@@ -88,3 +88,11 @@ services:
      - brutex
      - blackwidow
      - netutils
+
+  environment:
+  - http_proxy="http://127.0.0.1:8118"
+  - https_proxy="http://127.0.0.1:8118"
+  - ftp_proxy="http://127.0.0.1:8118"
+  - HTTP_PROXY="http://127.0.0.1:8118"
+  - HTTPS_PROXY="http://127.0.0.1:8118"
+  - FTP_PROXY="http://127.0.0.1:8118"
