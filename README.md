@@ -45,6 +45,8 @@ docker-compose build
 * EmailHarvester
 * BruteX
 * BlackWidow
+* Shiva
+* MemcrashedDDOS
 
 #### Notes:
 
