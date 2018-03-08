@@ -47,6 +47,7 @@ docker-compose build
 * BlackWidow
 * Shiva
 * MemcrashedDDOS
+* ctfr
 
 #### Notes:
 
