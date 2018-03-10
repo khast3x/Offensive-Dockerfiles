@@ -52,6 +52,6 @@ docker-compose build
 #### Notes:
 
 * Adding them as I go. Don't expect production-ready images  
-* Uses either either using python-slim or python-alpine
+* Uses either python-slim or python-alpine
 * Tools will show help dialog if no arguments are passed  
 
