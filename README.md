@@ -1,4 +1,5 @@
-# Offensive Dockerfiles
+Offensive Dockerfiles
+===
 ![Docker](https://koalalorenzo2014.files.wordpress.com/2015/04/docker-icon-bw.png?w=300&h=212)
 
 # Abstract
@@ -13,7 +14,7 @@ It becomes much easier to deploy and use these tools with mission specific asset
 * Using mission specific domain names for implant reverse callbacks
 * Datacenter-grade internet connection bandwidth
 
-## Usage:
+# Usage:
 
 ```bash
 # Build a specific tool for deployment
@@ -23,13 +24,10 @@ cd <tool>
 docker build -t <tool> .
 docker run -it <tool>:latest
 
-# Use docker-compose to build all in one
-git clone https://github.com/khast3x/Offensive-Dockerfiles.git
-cd Offensive-Dockerfiles
-docker-compose build
 ```
 
-#### Working:
+# Working:
+
 * tulpar
 * nmap / NSE / Vulscan / Vulners
 * sqlmap
@@ -48,8 +46,10 @@ docker-compose build
 * Shiva
 * MemcrashedDDOS
 * ctfr
+* twa
 
-#### Notes:
+
+# Notes:
 
 * Adding them as I go. Don't expect production-ready images  
 * Uses either python-slim or python-alpine
