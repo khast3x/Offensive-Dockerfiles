@@ -48,6 +48,7 @@ docker run -it <tool>:latest
 * ctfr
 * twa
 * Photon
+* CMSeeK
 
 # Notes:
 
