@@ -20,6 +20,8 @@
 
 ![demo](https://image.ibb.co/fnXWBe/Screenshot_2018_09_20_14_02_05.png)
 
+## [Source](https://github.com/s0md3v/Hash-Buster)
+
 ## Features
 - Automatic hash type identification
 - Supports MD5, SHA1, SHA256, SHA384, SHA512
