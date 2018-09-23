@@ -49,6 +49,7 @@ docker run -it <tool>:latest
 * twa
 * Photon
 * CMSeeK
+* Hash-Buster
 
 # Notes:
 
