@@ -3,7 +3,7 @@
 Offensive Dockerfiles
 ===
 
-![Docker](https://i.imgur.com/6fi4Vgs.png width="100" height="100")
+![Docker](https://i.imgur.com/M1KKzwO.jpg)
 ===
 
 
