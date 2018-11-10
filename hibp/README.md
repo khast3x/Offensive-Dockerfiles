@@ -1,7 +1,8 @@
 # haveibeenpwned
 
 ## Abstract
-Is supposed to use correct throttling etc
+Is supposed to use correct throttling etc  
+Replace targets.txt with your targets
 
 ## Source
 
