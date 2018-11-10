@@ -1,32 +1,34 @@
-Offensive Dockerfiles
+
+![Docker](https://i.imgur.com/6fi4Vgs.png)
 ===
-![Docker](https://koalalorenzo2014.files.wordpress.com/2015/04/docker-icon-bw.png?w=300&h=212)
 
-# Abstract
-Alpine or slim Dockerfiles of various offensive information security tools, making them easy to deploy in hosted cloud environments.  
-It becomes much easier to deploy and use these tools with mission specific assets such as:
+# Offensive Dockerfiles
 
-* Hosting environment
-* SOCKS proxy using docker built-in networking
-	* Transparent Tor overlay proxy
-	* Example given in ``docker-compose`` format with attached minimal Tor SOCKS proxy
-	* Can also be deployed using docker ``bridge networking`` for complete transparent proxy of services
-* Using mission specific domain names for implant reverse callbacks
-* Datacenter-grade internet connection bandwidth
+This repository contains a collection of **security-oriented tools** as Dockerfiles.  
+This makes it easy to deploy various mission dependent tools using common cloud providers (AWS, Azure, Linode..). The containers are built using Docker. Each container is made to suit required dependencies for each tool.  
 
-# Usage:
+* No more buggy environments!  
+* Datacenter fiber internet connection!  
+* Attack remotly without the burden of running your tools on your machine
+* Become a real nomad ninja
+* Mix and match with the [Red Team Infractructure Guide](https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki) and [Red Baron](https://github.com/Coalfire-Research/Red-Baron)!
+
+
+
+Efforts have been made to keep Dockerfiles minimal.  
+**Use responsibly** for your bug bounties or pentesting needs :rainbow:
+
+## Usage example with sqlmap:
 
 ```bash
-# Build a specific tool for deployment
 git clone https://github.com/khast3x/Offensive-Dockerfiles.git
-cd Offensive-Dockerfiles
-cd <tool>
-docker build -t <tool> .
-docker run -it <tool>:latest
+cd Offensive-Dockerfiles/sqlmap
+docker build -t sqlmap .
+docker run -it sqlmap:latest --wizard
 
 ```
 
-# Working:
+## Working:
 
 * tulpar
 * nmap / NSE / Vulscan / Vulners
@@ -51,9 +53,17 @@ docker run -it <tool>:latest
 * CMSeeK
 * Hash-Buster
 
-# Notes:
+-- To push to repo (currently are sitting as forks)
+* CloudScraper
+* hershell
+* Merlin
+
+## Notes:
 
 * Adding them as I go. Don't expect production-ready images  
 * Uses either python-slim or python-alpine
 * Tools will show help dialog if no arguments are passed  
+
+
+[:house_with_garden:](http://toto.com)
 
