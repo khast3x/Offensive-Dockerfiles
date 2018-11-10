@@ -1,11 +1,13 @@
 
+<h1 align="center">
+  <br>
+  <a href="https://github.com/khast3x/Offensive-Dockerfiles"><img src="https://i.imgur.com/SfXGzT5.png" alt="Offensive-Dockerfiles"></a>
+  <br>
+  Offensive Dockerfiles
+  <br>
+</h1>
 
-Offensive Dockerfiles
-===
-
-![Docker](https://i.imgur.com/M1KKzwO.jpg)
-===
-
+<h4 align="center">Security-oriented Docker containers, ready to fire!</h4>
 
 This repository contains a collection of **security-oriented tools** as Dockerfiles.  
 This makes it easy to deploy various mission dependent tools using common cloud providers (AWS, Azure, Linode..). The containers are built using Docker. Each container is made to suit required dependencies for each tool.  
@@ -20,12 +22,12 @@ This makes it easy to deploy various mission dependent tools using common cloud 
 
 Efforts have been made to keep Dockerfiles minimal.  
 
-----
-:star: **Use responsibly** for your bug bounties or pentesting needs 
 
 ---
+:star: **Use responsibly** for your bug bounties or pentesting needs 
 
-## Usage example with sqlmap:
+
+## Example with sqlmap:
 
 ```bash
 git clone https://github.com/khast3x/Offensive-Dockerfiles.git
