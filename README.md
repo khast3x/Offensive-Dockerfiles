@@ -21,9 +21,10 @@ The containers are built using Docker. Each container is made to suit required d
 
 ## :star: Features
 
-* No more buggy environments!  
-* Datacenter fiber internet connection!  
-* Attack remotly without the burden of running your tools on your machine
+* Cross-platform deploy helper script included
+* Manage cloud-based scans and attacks from your terminal
+* Datacenter fiber internet connection, but still from your terminal!  
+* Keep your local environment clean from all those attack toolz
 * :cloud: Become a real nomad ninja :cloud:
 * Mix and match with the [Red Team Infractructure Guide](https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki) and [Red Baron](https://github.com/Coalfire-Research/Red-Baron)!
 
@@ -40,6 +41,11 @@ docker build -t sqlmap .
 docker run -it sqlmap:latest --wizard
 
 ```
+
+
+## :mag: deployHelper binary demo:
+
+![](https://i.imgur.com/tYKTjZb.gif)
 
 ## :rocket: Working:
 
